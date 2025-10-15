@@ -35,3 +35,23 @@ Additional Tips
 Make sure all required fields (Location and Description) are filled before submitting.
 You can attach multiple reports during your session.
 To exit, close the application window.
+
+
+## Local Events & Recommendations (Part 2)
+
+### Requirements
+- .NET 6 SDK or later recommended (WinForms desktop).
+- Visual Studio 2022 or newer (Windows) to open the solution and run.
+
+### New features added (Part 2)
+- `MainMenuForm` — Main menu: Report Issues (existing), Local Events and Announcements, Service Request Status (placeholder).
+- `LocalEventsForm` — displays upcoming events; search by text/category/date range; shows recommendations based on user searches.
+- Data structures used: Stack, Queue, PriorityQueue, Dictionary, SortedDictionary, HashSet.
+- `RecommendationEngine` — logs searches and suggests events.
+
+### How to run
+1. Open `MunicipalReporter.sln` in Visual Studio.
+2. Ensure project target framework is .NET 6 (or change as needed).
+3. Build the solution.
+4. Run — the Main Menu will open. Click **Local Events and Announcements** to open the new page.
+
